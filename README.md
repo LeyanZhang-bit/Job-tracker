@@ -5,8 +5,10 @@ Python + Streamlit + SQLite 个人本地应用。支持记录公司、投递岗�
 ## 在 PyCharm 中运行
 
 建议使用 Python 3.10 或更新版本。用 PyCharm 打开本项目文件夹，在底部 Terminal（终端）中运行：
+Windows PowerShell 示例，请将路径替换为你自己的实际路径：
 
 ```bash
+cd D:\我的项目\求职管理工具
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
